@@ -5,7 +5,7 @@ const DeleteIssueButton = ({ issueId }: { issueId: number }) => {
   return (
     <AlertDialog.Root>
       <AlertDialog.Trigger>
-        <Button color="red">Delete Issue</Button>;
+        <Button color="red">Delete Issue</Button>
       </AlertDialog.Trigger>
       <AlertDialog.Content>
         <AlertDialog.Title>Confimr Deletion</AlertDialog.Title>
