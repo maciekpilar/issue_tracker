@@ -42,7 +42,7 @@ Similar page to createing issue, but with completed form and update button.
 <br>
 <br>
 ![](./readmeImg/delete.jpg)
-Confirmation of celete action in one of issues.
+Confirmation of delete action in one of issues.
 
 ### What you can do?
 - Login and logout when you are Gmail user,
