@@ -1,34 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![](./readmeImg/mockup.png)
+# Issue Tracker - Fullstack App
 
-## Getting Started
+**Live Preview: Clone the project, set .exampleEnv like yours .env and run app for Yourself)**
 
-First, run the development server:
+Fully working Issue Tracking App. It is completed project created with Next.js and Tailwind. You can add, delete, edit Issue, watch how many is open, in progress or closed, and much more.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**NextJS 13, Tailwind and Prisma** made as a practice project. There is fullstack app, with CRUD. In this project I learned how to create modern UI, understand how is Tailwind working and Tailwind best practices. Also I learned new components library (RadixUI). Now I know how to use **Prisma** in real projects, add, edit and delete elements also with filtering by links and params. By this project I betterment also my JS and Next skills. <br> The page contains multiple views:
+- Home page (Dashboard),
+- LogIn and LogOut by google (OAuth 2.0),
+- Issue Detail Page,
+- Edit and Create Page,
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
+# 🖥️ Pages
+![](./readmeImg/dashboard.jpg)
+On this page you can see Chart with Issues to displaying the number of issues, boxes with numbers for easiest reading chart and latest issues into table. By clicking into box with status number you can go into IssuesPage with automatic filter for this specific Issue Status to see only one of them. Also when click into issue from Latest Issue list you can see all details.
+<br>
+<br>
+<br>
+![](./readmeImg/issues.jpg)
+Here we have full table with all of added issues -> we can use paginatiion, sorting, and clicking into rows to open detail page.
+<br>
+<br>
+<br>
+![](./readmeImg/details.jpg)
+It is page with all details of our project. Also we have button to Edit or Delete Issue and dropdown with Assign option to one of all users from database.
+<br>
+<br>
+<br>
+![](./readmeImg/newIssue.jpg)
+Here we are creating our Issue. As You can see, we have form with two fields (One for title, and one text field with many text editing options - by react-simple-editor)
+<br>
+<br>
+<br>
+![](./readmeImg/edit.jpg)
+Similar page to createing issue, but with completed form and update button.
+<br>
+<br>
+<br>
+![](./readmeImg/delete.jpg)
+Confirmation of celete action in one of issues.
 
-## Learn More
+### What you can do?
+- Login and logout when you are Gmail user,
+- Add, edit and delete issue,
+- Look at other people issues,
+- Use sorting in table (sorting by title, status or created date),
+- Use status filter to see only selected status,
 
-To learn more about Next.js, take a look at the following resources:
+### This app can be expanded:
+- Status changing,
+- Add other pages and links,
+- Add descending sotring
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## In project are used: 
+- Reuseable components,
+- Mapping,
+- Better File and Folder structure for Next.js
+- Responsive Web Design (RWD),
+- Database,
+- Pagination,
+- Sorting,
+- Filtering,
+- SSR,
+- NextAuth,
+- JsonWebToken,
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Tools Used
+1. JavaScript (NextJS 13 + TypeScript)
+2. Prisma (Database)
+3. Tailwind (Styles)
+5. VSCode (Code Editor)
+6. React Icons
+7. RadixUI (Components)
+8. React loading skeleton
+9. Recharts
+10. zod
+11. NextAuth
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
+<br>
+<br>
+## Just download and test it 😁
+<br>
+# Thanks for reading ^^ and nice to see You here
