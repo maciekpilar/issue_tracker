@@ -85,6 +85,7 @@ Confirmation of delete action in one of issues.
 <br>
 <br>
 <br>
+
 ## Just download and test it 😁
-<br>
-# Thanks for reading ^^ and nice to see You here
+
+# Thanks for reading 🖥️ and nice to 👀 You here
